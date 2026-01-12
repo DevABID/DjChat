@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-@po$t4e9pyv3=8@#(#2k-k@0sv6onqxqtfb!uq&2(x%h(2e%3s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://djchat-izeg.onrender.com']
+ALLOWED_HOSTS = ['djchat-izeg.onrender.com']
 
 CSRF_TRUSTED_ORIGINS = [
     "https://djchat-izeg.onrender.com",
@@ -126,4 +126,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
